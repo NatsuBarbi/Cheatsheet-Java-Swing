@@ -1,4 +1,4 @@
-package DefaultPackage;
+package Default;
 
 import javax.swing.*;
 import javax.swing.border.Border;
