@@ -13,8 +13,8 @@ public class MyLabel extends JLabel {
         this.setIcon(image);                                        // set icon into label
         this.setHorizontalTextPosition(JLabel.CENTER);              // change textposition Horizontal
         this.setVerticalTextPosition(JLabel.TOP);                   // change textposition Vertical
-        this.setForeground(new Color(0x00ff00));                // set text color
-        this.setFont(new Font("MV Boli", Font.PLAIN, fontSize)); // set text font + weight + size
+        this.setForeground(new Color(0x00ff00));                    // set text color
+        this.setFont(new Font("MV Boli", Font.PLAIN, fontSize));    // set text font + weight + size
         this.setIconTextGap(gap);                                   // set gap of text to image
         this.setBackground(Color.BLACK);                            // set backgroundcolor
         this.setOpaque(true);                                       // display backgroundcolor (Mandatory!)
