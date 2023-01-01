@@ -9,7 +9,7 @@ public class MyFrame extends JFrame {
         this.setTitle(title);                                   // set Title
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);    // behaviour on exiting application
         this.setResizable(true);                                // prevent frame from being resized
-        this.setSize(width, height);                             // set frame size (x-, y-dimension)
+        this.setSize(width, height);                            // set frame size (x-, y-dimension)
         this.setLayout(null);                                   // seperate frame from label
         this.setVisible(true);                                  // make frame visible
     }
